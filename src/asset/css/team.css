@@ -1,0 +1,208 @@
+/* team Page */
+.teamPage {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 15vh 0;
+  word-break: keep-all;
+}
+.teamPage .teamPageWrap {
+  width: 100%;
+  padding: 100px 59px;
+}
+.teamPageWrap .teamName {
+  width: 275px;
+  height: 42px;
+  border: 1px solid #fff;
+  border-radius: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 42px;
+  font-size: 20px;
+}
+.teamPageWrap .teamIntroduction {
+  position: relative;
+  display: flex;
+  padding-bottom: 20vh;
+}
+.teamIntroduction .titleLayout {
+  width: 65%;
+}
+@media screen and (min-width: 1200px) {
+  .teamIntroduction .titleLayout {
+    position: sticky;
+    top: 150px;
+    width: 65%;
+    height: 555px;
+  }
+}
+.teamIntroduction .titleLayout .upAnimation {
+  position: relative;
+  animation-name: upAnimation;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+@media screen and (min-width: 1200px) {
+  @keyframes upAnimation {
+    100% {
+      bottom: 0;
+    }
+  }
+}
+.titleLayout .teamMainTitle {
+  font-size: 104px;
+  line-height: 1.1;
+  margin-top: 36px;
+  margin-bottom: 19px;
+}
+.titleLayout .teamMainTitle > p {
+  overflow: hidden;
+}
+.titleLayout .teamMainTitle > p > span {
+  bottom: -110px;
+}
+.titleLayout .teamMainTitle .teamMainTitleBottom {
+  animation-delay: .1s;
+}
+.titleLayout .teamSubTitle {
+  overflow: hidden;
+  font-size: 20px;
+}
+.titleLayout .teamSubTitle > p {
+  bottom: -30px;
+  animation-delay: .3s;
+}
+.titleLayout .animationLayout {
+  position: absolute;
+  top: 105px;
+  right: -40%;
+}
+.titleLayout .animationLayout ul {
+  display: flex;
+  flex-direction: column;
+  color: #a8a8a8;
+}
+.titleLayout .animationLayout ul li {
+  position: relative;
+  bottom: -50px;
+  height: 100px;
+  opacity: 0;
+  transition: .4s;
+}
+.titleLayout .animationLayout ul li.active {
+  opacity: 1;
+  bottom: 0;
+}
+.titleLayout .animationLayout ul li small {
+  font-size: 14px;
+}
+.titleLayout .animationLayout ul li p {
+  font-size: 40px;
+  line-height: 1;
+}
+@media screen and (max-width: 1200px) {
+  .titleLayout .teamMainTitle > p > span {
+    bottom: 0px;
+  }
+  .titleLayout .teamSubTitle > p {
+    bottom: 0px;
+  }
+}
+.contentsLayout {
+  margin-top: 105px;
+  color: #a8a8a8;
+}
+.contentsLayout ul {
+  display: flex;
+  flex-direction: column;
+  color: #a8a8a8;
+}
+@media screen and (min-width: 1200px) {
+  .contentsLayout .triggerLayout ul {
+    justify-content: space-between;
+  }
+  .contentsLayout .triggerLayout ul li {
+    position: sticky;
+    height: 2000px;
+  }
+}
+.contentsLayout ul li small {
+  font-size: 14px;
+}
+.contentsLayout ul li p {
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* we do layout */
+.weDoLayout {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+.weDoLayout .weDoWrap {
+  width: 100%;
+  padding: 40px 59px;
+}
+.weDoLayout .weDo {
+  width: 161px;
+  height: 42px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 32px;
+  text-align: center;
+  line-height: 42px;
+}
+.weDoLayout .animationLayout {
+  width: 5200px;
+  padding: 10vh 0 15vh 0;
+}
+.weDoLayout .animationLayout .flowFrame {
+  position: relative;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  animation-name: flowAnimation;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 30s;
+}
+@keyframes flowAnimation {
+  100% { left: -60%; }
+}
+.animationLayout .circle {
+  width: 260px;
+  height: 260px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contactButtonWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
+}
+.contactButtonWrap .contactButton {
+  width: 161px;
+  height: 42px;
+  border: 1px solid #fff;
+  border-radius: 32px;
+  background: none;
+  color: #fff;
+  margin-top: 59px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.contactButtonWrap .contactButton:hover {
+  background: #fff;
+  color: #000;
+}

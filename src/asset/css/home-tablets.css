@@ -1,0 +1,63 @@
+/* ******************** mediaQuery Tablets 세로 ******************** */
+@media screen and (max-width: 800px) {
+  /* aboutUsSection */
+  .aboutUsSection {
+    font-size: 16px;
+  }
+
+  /* ourValuesSection  */
+  .ourValuesSection .ourValuesWrap {
+    flex-direction: column;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo {
+    width: 100%;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li small {
+    font-size: 18px;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li .valuesKeword {
+    font-size: 12vw;
+    line-height: 1.2;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li p {
+    font-size: 16px;
+  }
+  /* teamSection */
+  .teamSection .teamSectionWrap {
+    flex-direction: column;
+  }
+  .teamSection .teamSectionWrap .team:last-child {
+    display: none;
+  }
+  .teamSection .teamSectionWrap .team {
+    border-right: none;
+    width: 100%;
+    flex: 1;
+  }
+  .teamSection .teamSectionWrap .team p {
+    padding-left: 60px;
+    font-size: 50px;
+  }
+
+  /* contactSection  */
+  .informationBox {
+    flex-direction: column;
+  }
+  .contactSection .section6Wrap {
+    padding: 15vh 60px;
+  }
+  .informationBox .withUsWrap {
+    width: 100%;
+    max-width: none;
+    text-align: left;
+  }
+  .office {
+    margin-bottom: 100px;
+  }
+  .informationBox .office p {
+    margin-top: 0;
+  }
+  .informationBox .withUsWrap .submitButtonWrap {
+    justify-content: center;
+  }
+}

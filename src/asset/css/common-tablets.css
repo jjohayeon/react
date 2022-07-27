@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 10vh 60px;
+  }
+  .pageTitle {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+  }
+  .pageTitle.white {
+    position: static;
+  }
+}

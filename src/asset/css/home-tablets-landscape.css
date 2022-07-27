@@ -1,0 +1,52 @@
+/* ******************** mediaQuery Tablets 가로 ******************** */
+
+@media screen and (max-width: 1200px) {
+  /* aboutUsSection */
+  .aboutUsSection {
+    font-size: 18px;
+  }
+
+  /* ourValuesSection */
+  .ourValuesSection .section4Wrap .ourValuesWrap .ourValuesInfo {
+  }
+  .ourValuesSection .section4Wrap .ourValuesWrap .ourValuesInfo ul li small {
+    font-size: 20px;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li .valuesKeword {
+    font-size: 70px;
+    line-height: 1.2;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li p {
+    font-size: 20px;
+  }
+
+  /* teamSection */
+  .teamSection .teamSectionWrap .team p {
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: "prom-medium";
+  }
+  /* section6 */
+  .section6 {
+    font-size: 16px;
+  }
+  .informationBox .office span {
+    margin-bottom: 55px;
+  }
+  .informationBox .withUsWrap {
+    width: 50%;
+    max-width: 500px;
+    text-align: left;
+  }
+  .informationBox .withUsWrap .withUsForm input {
+    font-size: 16px;
+  }
+  .informationBox .withUsWrap .withUsForm textarea {
+    font-size: 16px;
+  }
+  .informationBox .withUsWrap .withUsForm .submitButton {
+    width: 140px;
+    height: 30px;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,54 @@
+/* ******************** mediaQuery mobile ******************** */
+@media screen and (max-width: 480px) {
+  /* aboutUsSection */
+  .aboutUsSection {
+    font-size: 14px;
+  }
+  .aboutUsSection .aboutUsTitle {
+    padding-top: 5vh;
+  }
+  .aboutUsSection .aboutUsTitle p {
+    display: none;
+  }
+  .aboutUsTitleMobileImg {
+    display: block;
+  }
+  .aboutUsSection .aboutUsSubTitle {
+    font-size: 14px;
+  }
+
+  /* ourValuesSection */
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li small {
+    font-size: 16px;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li .valuesKeword {
+    font-size: 12vw;
+    line-height: 1.2;
+  }
+  .ourValuesSection .ourValuesWrap .ourValuesInfo ul li p {
+    font-size: 14px;
+  }
+  /* teamSection */
+  .teamSection .teamSectionWrap .team p {
+    padding-left: 40px;
+    font-size: 40px;
+  }
+  /* section6 */
+  .contactSection {
+    font-size: 14px;
+  }
+  .contactSection .section6Wrap {
+    padding: 15vh 40px;
+  }
+  .section6Wrap .informationBox {
+    margin-top: 120px;
+  }
+  .informationBox .withUsWrap .withUsForm input,
+  .informationBox .withUsWrap .withUsForm textarea,
+  .informationBox .withUsWrap .withUsForm .submitButton {
+    font-size: 14px;
+  }
+  .office {
+    margin-bottom: 100px;
+  }
+}

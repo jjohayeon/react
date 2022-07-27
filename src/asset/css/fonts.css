@@ -1,0 +1,60 @@
+/*** noto-sans-kr ***/
+@font-face {
+  font-family: "nskr-black";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Black.otf");
+}
+@font-face {
+  font-family: "nskr-bold";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Bold.otf");
+}
+@font-face {
+  font-family: "nskr-medium";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Medium.otf");
+}
+@font-face {
+  font-family: "nskr-regular";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Regular.otf");
+}
+@font-face {
+  font-family: "nskr-light";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Light.otf");
+}
+@font-face {
+  font-family: "nskr-thin";
+  src: url("https://onecollection.co.kr/resources/fonts/noto-sans-kr/NotoSansKR-Thin.otf");
+}
+
+/*** prompt ***/
+@font-face {
+  font-family: "prom-regular";
+  src: url("https://onecollection.co.kr/resources/fonts/prompt/Prompt-Regular.ttf");
+}
+@font-face {
+  font-family: "prom-medium";
+  src: url("https://onecollection.co.kr/resources/fonts/prompt/Prompt-Medium.ttf");
+}
+
+.bold1 {
+  font-family: "nskr-thin", sans-serif;
+}
+.bold2 {
+  font-family: "nskr-light", sans-serif;
+}
+.bold3 {
+  font-family: "nskr-regular", sans-serif;
+}
+.bold4 {
+  font-family: "nskr-medium", sans-serif;
+}
+.bold5 {
+  font-family: "nskr-bold", sans-serif;
+}
+.bold6 {
+  font-family: "nskr-black", sans-serif;
+}
+.prom-regular {
+  font-family: "prom-regular";
+}
+.prom-medium {
+  font-family: "prom-medium";
+}

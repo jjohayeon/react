@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+  .navBar {
+    padding: 40px;
+  }
+  .navBar .navMenu ul {
+    gap: 25px;
+  }
+  .navMenu ul li {
+    font-size: 13px;
+  }
+  .navMenu ul li:first-child {
+    display: none;
+  }
+}

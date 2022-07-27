@@ -1,0 +1,8 @@
+@media screen and (max-width: 1200px) {
+  .pageTitle {
+    width: 150px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 18px;
+  }
+}

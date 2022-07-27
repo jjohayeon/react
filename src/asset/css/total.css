@@ -1,0 +1,26 @@
+/* navBar */
+.navBar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 59px;
+  transition: transform 0.5s;
+  z-index: 999;
+}
+.navBar.down {
+  transform: translateY(0);
+}
+.navBar.up {
+  position: fixed;
+  transform: translateY(-140px);
+}
+.navBar .navMenu ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}

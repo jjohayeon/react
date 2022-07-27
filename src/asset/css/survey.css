@@ -1,0 +1,54 @@
+#surveySection {
+    padding: 25px;
+    background: #FAFAFA;
+}
+#surveySection .surveySection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+}
+    #surveySection .surveyContainer {
+        width: 100%;
+        padding: 8px;
+    }
+        #surveySection .surveyContainer .surveyLayout {
+            height: 100%;
+            padding: 20px 25px;
+            background: #FFF;
+            box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+            border-radius: 10px;
+        }
+            #surveySection .surveyContainer .surveyLayout .number {
+                width: 30px;
+                display: inline-block;
+                vertical-align: top;
+                font-weight: bold;
+            }
+            #surveySection .surveyContainer .surveyLayout .title {
+                width: calc(100% - 30px);
+                display: inline-block;
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+                #surveySection .surveyContainer .surveyLayout .survey .cat {
+                    padding: 3px 0px;
+                }
+                    #surveySection .surveyContainer .surveyLayout .survey .cat .inputLayout {
+                        width: 100%;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        border: solid 1px #DBDBDB;
+                    }
+                        #surveySection .surveyContainer .surveyLayout .survey .cat .inputLayout textarea {
+                            width: 100%;
+                            padding: 10px;
+                            resize: none;
+                            font-family: "nskr-regular", sans-serif;
+                        }
+
+@media all and (max-width: 800px) {
+    #surveySection .surveySection {
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 1600px) {
+  .teamPageWrap .teamIntroduction {
+    justify-content: space-between;
+    padding-bottom: 10vh;
+  }
+  .teamPageWrap .teamName {
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .teamIntroduction .titleLayout {
+    width: 70%;
+  }
+  .titleLayout .teamMainTitle {
+    font-size: 80px;
+    line-height: 1.2;
+    margin-bottom: 19px;
+  }
+  .titleLayout .teamSubTitle {
+    font-size: 18px;
+  }
+  .titleLayout .animationLayout ul li small {
+    font-size: 10px;
+  }
+  .titleLayout .animationLayout ul li p {
+    font-size: 25px;
+  }
+  .contentsLayout {
+    width: 30%;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    .contentsLayout .triggerLayout ul li {
+      height: 1200px;
+    }
+  }
+  .contentsLayout ul li {
+  }
+  .contentsLayout ul li small {
+    font-size: 10px;
+  }
+  .contentsLayout ul li p {
+    font-size: 25px;
+  }
+  .weDoLayout .weDoWrap {
+    padding: 40px;
+  }
+  .weDoLayout .weDo {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .weDoLayout .animationLayout {
+    width: 4000px;
+    padding: 8vh 0 12vh 0;
+  }
+  .animationLayout .circle {
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+  }
+  .contactButtonWrap {
+    padding-top: 10vh;
+  }
+}

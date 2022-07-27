@@ -1,0 +1,75 @@
+@media screen and (max-width: 1200px) {
+  .teamPageWrap .teamIntroduction {
+    flex-direction: column;
+  }
+  .teamIntroduction .titleLayout {
+    width: 100%;
+  }
+  .titleLayout #scrollTargetSix {
+    display: none;
+  }
+  .titleLayout .animationLayout {
+    position: relative;
+    right: 0;
+    opacity: 1;
+  }
+  .titleLayout .animationLayout ul li {
+    bottom: 0;
+    opacity: 1;
+  }
+  .titleLayout .animationLayout #scollTargetSix {
+    display: none;
+  }
+  .contentsLayout {
+    display: none;
+  }
+  .contentsLayout ul li:not(:last-of-type) {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .teamPage .teamPageWrap {
+    padding: 40px;
+  }
+  .teamPageWrap .teamName {
+    width: 210px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  .titleLayout .teamMainTitle {
+    font-size: 54px;
+    margin-bottom: 19px;
+  }
+  .titleLayout .teamSubTitle {
+    font-size: 16px;
+  }
+  .titleLayout .animationLayout {
+    top: 60px;
+  }
+  .titleLayout .animationLayout ul li {
+    height: 80px;
+  }
+  .titleLayout .animationLayout ul li p {
+    font-size: 22px;
+  }
+  .contentsLayout ul li p {
+    font-size: 22px;
+  }
+  .weDoLayout .animationLayout {
+    width: 3200px;
+    padding: 3vh 0 10vh 0;
+  }
+  .weDoLayout .weDo {
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+  }
+  .animationLayout .circle {
+    width: 160px;
+    height: 160px;
+    font-size: 14px;
+  }
+}
